@@ -89,21 +89,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-
-Reliable, efficient delivery
-Powered by Technology
-
-Our Artificial Intelligence powered tools use millions of project data points
-to ensure that your project is successful
-
-Supervisor
-Monitors activity to identify project roadblocks
-
-Team Builder
-Scans our talent network to create the optimal team for your project
-
-Karma
-Regularly evaluates our talent to ensure quality
-
-Calculator
-Uses data from past projects to provide better delivery estimates
