@@ -80,6 +80,13 @@ main {
     justify-content: flex-end;
 }
 
+.card header {
+    color: var(--Grey-500);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .card p {
+    color: var(--Grey-400);
     font-size: var(--p-font-size);
 }
