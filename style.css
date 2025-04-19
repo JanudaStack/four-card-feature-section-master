@@ -51,3 +51,19 @@ main {
     font-size: var(--p-font-size);
     text-align: center;
 }
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border-top: 4px solid var(--Cyan);
+    border-radius: 4px 4px 10px 10px;
+    padding: 20px;
+    background-color: var(--White);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
