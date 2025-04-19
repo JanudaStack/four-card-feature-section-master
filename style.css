@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
 }
 
 :root {
@@ -17,4 +18,36 @@
 
     /* Fonts */
     --font-family: 'Poppins', sans-serif;
+
+    --p-font-size: 15px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading-1 {
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: var(--Grey-400);
+}
+
+.heading-2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--Grey-500);
+}
+
+.para {
+    margin-top: 1rem;
+    font-size: var(--p-font-size);
+    text-align: center;
 }
