@@ -31,6 +31,10 @@ main {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -47,6 +51,7 @@ main {
 }
 
 .para {
+    /* width: 70%;/ */
     margin-top: 1rem;
     font-size: var(--p-font-size);
     text-align: center;
@@ -57,7 +62,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .card {
