@@ -74,6 +74,14 @@ main {
     border-top: 4px solid var(--Red);
 }
 
+.card:nth-child(3) {
+    border-top: 4px solid var(--Orange);
+}
+
+.card:nth-child(4) {
+    border-top: 4px solid var(--Blue);
+}
+
 .icon {
     padding-top: 1.5rem;
     display: flex;
