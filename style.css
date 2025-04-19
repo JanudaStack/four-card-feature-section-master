@@ -61,9 +61,25 @@ main {
 }
 
 .card {
+    width: 100%;
+    max-width: 350px;
     border-top: 4px solid var(--Cyan);
     border-radius: 4px 4px 10px 10px;
     padding: 20px;
     background-color: var(--White);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(2) {
+    border-top: 4px solid var(--Red);
+}
+
+.icon {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card p {
+    font-size: var(--p-font-size);
 }
