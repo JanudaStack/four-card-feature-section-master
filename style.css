@@ -58,11 +58,10 @@ main {
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 2.5rem;
 }
 
 .card {
@@ -106,4 +105,30 @@ main {
 
 .attribution {
     text-align: center;
+}
+
+@media (min-width: 1025px) {
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            'sup team calc'
+            'sup karma calc';
+    }
+
+    #supervisor {
+        align-self: center;
+        grid-area: sup;
+    }
+
+    #team-builder {
+        grid-area: team;
+    }
+    #karma {
+        grid-area: karma;
+    }
+    #calculator {
+        align-self: center;
+        grid-area: calc;
+    }
 }
