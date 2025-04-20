@@ -104,7 +104,12 @@ main {
 }
 
 .attribution {
+    margin-top: 2.5rem;
     text-align: center;
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--Orange);
 }
 
 @media (min-width: 1025px) {
